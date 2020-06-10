@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Numeros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <div id="form">
+            <p>Inicio:
+                <input type="number" class="numberBox" id="txtIni">
+            </p>
+            <p>Fin:
+                <input type="number" class="numberBox" id="txtFin">
+            </p>
+            <p>Salto:
+                <input type="number" class="numberBox" id="txtSal">
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+                <input type="button" value="Borrar" onclick="borrar()">
+            </p>
+        </div>
+        <div>
+            <p id="resp">Esperando contar...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Counter website </p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
